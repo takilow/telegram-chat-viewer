@@ -37,7 +37,7 @@ npm run dev
 
 ## структура репозитория
 ```
-telegram_chat_viewer.html   - самостоятельная версия вьювера
+index.html   - самостоятельная версия вьювера
 icons/                      - иконки приложения
 tauri-project/              - десктоп-обёртка на Tauri
   src/index.html            - тот же вьювер внутри приложения
