@@ -462,7 +462,7 @@ body.rainbow-active .bubble,body.rainbow-active .header,body.rainbow-active .bac
   <div id="status" data-i18n="statusWait">жду папку с messages.html</div>
   <div class="foot" data-i18n-html="foot">ничего никуда не загружается — всё обрабатывается у тебя на компе<br>чтобы медиа играли — при экспорте поставь галочки на photos / videos / voice / video messages / stickers</div>
   <div style="display:flex;justify-content:center;margin:12px 0"><button id="helpBtnStart" type="button" title="какая папка нужна" data-i18n-title="helpTitle" style="width:38px;height:38px;border-radius:50%;border:1px solid var(--line2);background:var(--panel);color:var(--accent);cursor:pointer;font-family:inherit;font-size:15px;font-weight:700">?</button></div>
-  <div id="verbar"><span data-i18n="verbar" id="verBtn" title="что нового" data-i18n-title="changelogTitle" style="cursor:pointer;border-bottom:1px dotted var(--accent)">версия 1.2 · сделано с любовью ·</span> <a href="https://t.me/teiqo" target="_blank">t.me/teiqo</a></div>
+  <div id="verbar"><span id="verBtn" title="что нового" data-i18n-title="changelogTitle" style="cursor:pointer"><span data-i18n="verbarVersion" style="border-bottom:1px dotted var(--accent)">версия 1.2</span><span data-i18n="verbarRest"> · сделано с любовью ·</span></span> <a href="https://t.me/teiqo" target="_blank">t.me/teiqo</a></div>
   <div class="startCtl" style="position:fixed;top:16px;right:16px;z-index:5;display:flex;gap:8px;align-items:center">
     <button id="settBtnStart" type="button" title="тема и цвет" data-i18n-title="themeColor" style="width:42px;height:42px;border-radius:50%;border:1px solid var(--line2);background:var(--panel);color:var(--accent);cursor:pointer;font-family:inherit"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21a9 9 0 1 1 9-9c0 2.5-2 3.5-3.5 3.5H15a2 2 0 0 0-1.5 3.3c.3.4.5.8.5 1.2a2 2 0 0 1-2 2z"/><circle cx="7.5" cy="11.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="10.5" cy="7.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15" cy="7.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="17.5" cy="11" r="1.2" fill="currentColor" stroke="none"/></svg></button>
     <button id="langBtnStart" type="button" title="язык интерфейса" data-i18n-title="langTitle" style="height:42px;padding:0 14px;border-radius:21px;border:1px solid var(--line2);background:var(--panel);color:var(--accent);cursor:pointer;font-family:inherit;font-size:13px;font-weight:700;line-height:42px">EN</button>
@@ -2527,7 +2527,8 @@ var I18N={
     zs:'или кликни, чтобы выбрать папку',
     statusWait:'жду папку с messages.html',
     foot:'ничего никуда не загружается — всё обрабатывается у тебя на компе<br>чтобы медиа играли — при экспорте поставь галочки на photos / videos / voice / video messages / stickers',
-    verbar:'версия 1.2 · сделано с любовью ·',
+    verbarVersion:'версия 1.2',
+    verbarRest:' · сделано с любовью ·',
     themeColor:'тема и цвет',
     langTitle:'язык интерфейса',
     back:'назад',
@@ -2607,7 +2608,8 @@ var I18N={
     zs:'or click to choose a folder',
     statusWait:'waiting for a folder with messages.html',
     foot:'nothing is uploaded anywhere — everything is processed on your computer<br>for media to play, tick photos / videos / voice / video messages / stickers when exporting',
-    verbar:'version 1.2 · made with love ·',
+    verbarVersion:'version 1.2',
+    verbarRest:' · made with love ·',
     themeColor:'theme & color',
     langTitle:'interface language',
     back:'back',
