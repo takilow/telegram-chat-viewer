@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c3affa"/>
+      <stop offset="1" stop-color="#7f56c9"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="0.32" cy="0.22" r="0.9">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="0.55" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#bg)"/>
+  <rect x="1" y="1" width="62" height="62" rx="14" fill="url(#sheen)"/>
+  <g>
+    <path fill="#ffffff" d="M 32.69,46.31 L 29.44,49.56 L 30.56,56.81 L 33.44,47.00 L 33.38,46.69 Z"/>
+    <path fill="#ffffff" d="M 43.38,7.25 L 31.12,22.88 L 18.62,10.94 L 25.75,29.44 L 11.94,44.06 L 27.44,36.56 L 28.19,40.44 L 32.81,35.62 L 56.56,42.25 L 38.31,28.31 Z"/>
+    <path fill="#3d2a66" d="M 31.50,45.69 L 27.44,43.56 L 25.19,52.25 Z"/>
+    <path fill="#3d2a66" d="M 26.62,38.38 L 21.56,40.81 L 24.31,51.00 L 26.56,42.19 L 27.06,41.62 Z"/>
+    <path fill="#3d2a66" d="M 27.88,42.44 L 43.81,50.81 L 47.06,40.88 L 33.19,37.00 Z"/>
+    <path fill="#3d2a66" d="M 24.25,29.06 L 23.00,25.81 L 7.38,31.88 L 17.00,36.88 Z"/>
+    <path fill="#3d2a66" d="M 46.75,21.06 L 40.31,25.44 L 39.69,27.81 L 40.00,28.06 Z"/>
+    <path fill="#3d2a66" d="M 56.19,12.81 L 41.94,18.50 L 40.62,23.88 L 53.88,15.06 L 40.94,28.69 L 49.00,34.88 Z"/>
+  </g>
+</svg>
