@@ -1,3 +1,6 @@
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/5c289971-b2bc-4094-937e-34e26f621122" />
+
+
 # telegram chat viewer
 
 одностраничный вьювер экспортированной переписки Telegram (HTML-экспорт) с поиском, медиа-панелью, темами и акцентными цветами. работает как самостоятельный HTML-файл в браузере или как десктоп-приложение на Tauri.
